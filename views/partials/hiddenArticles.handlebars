@@ -1,0 +1,28 @@
+<div id="displayArticles">
+	{{#if articles}}
+	{{#each articles}}
+	<div class="col s12" data_id="{{this.id}}">
+		<div class="card horizontal">
+			<div class="card-image">
+				<img src="{{this.img}}">
+			</div>
+			<div class="card-stacked">
+				<div class="card-content">
+					<p class="title">{{{this.title}}}</p>
+					<p class="source">{{{this.source}}} -- </p>
+					<span class="teaser">{{this.teaser}}</span>
+				</div>
+				<div id="test" class="card-action">
+					<a class="link blue-text text-darken-2" href="{{this.link}}" target="_blank">Read Article</a>
+					<a data-id="{{this.id}}" class="comments blue-text text-darken-2" href="#modal1">Add/View Comments</a>
+					<a data-id="{{this.id}}" class="saveArticle blue-text text-darken-2">Save for Later</a>
+					<a data-id="{{this.id}}" class="unhideArticle blue-text text-darken-2">Unhide</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	{{/each}}
+	{{else}}
+	<p class="text-center red-text white">No hidden articles to display at this time.</p>
+	{{/if}}
+</div>

@@ -1,0 +1,90 @@
+/* div {
+	border: 1px solid red;
+} */
+
+body {
+	background: grey;
+}
+
+nav {
+	z-index: 1;
+	width: 100%;
+	position: fixed;
+	background-color: rgba(240, 240, 240, 0.9);
+	margin-bottom: 50px;
+	padding: 0px 15px 0px 15px;
+}
+
+a:visited {
+	color: black;
+}
+
+a {
+	color: black !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+li {
+	color: grey;
+	list-style: none;
+}
+
+#appName {
+	color: white;
+	margin-left: -65px;
+	text-shadow: 2px 2px 5px black;
+}
+
+.mainDisplay {
+	margin-top: 75px;
+
+}
+
+#dropdown1 {
+	width: 180px !important;
+	right: 0 !important;
+}
+
+img {
+	margin-left: 50%;
+	padding-top: 10px;
+	width: none !important;
+}
+
+.title {
+	font-weight: bold;
+}
+
+#comments {
+	text-align: center;
+}
+
+.saveArticle,
+.hideArticle,
+.unsaveArticle,
+.unhideArticle {
+	cursor: pointer;
+}
+
+#back2top {
+	text-align: right;
+	margin-right: 50px;
+	margin-bottom: 75px;
+}
+
+.footerText {
+	margin-top: 15px;
+}
+
+footer {
+	border-top: 1px solid black;
+	bottom: 0;
+	background: rgba(240, 240, 240, 0.8);
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+}

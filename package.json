@@ -1,0 +1,31 @@
+{
+  "name": "mongo_news_scraper",
+  "version": "1.0.0",
+  "description": "A Node.js and MongoDB application that scrapes and stores news from the NY Times",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwong770/Mongo-News-Scraper.git"
+  },
+  "author": "Maria Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwong770/Mongo-News-Scraper/issues"
+  },
+  "homepage": "https://github.com/mwong770/Mongo-News-Scraper#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.0",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0"
+  }
+}
